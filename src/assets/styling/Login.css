@@ -1,0 +1,20 @@
+.login-div{
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.login-btn{
+  background: transparent;
+  border: none;
+  color: black;
+  font-weight: 700;
+}
+
+.submit{
+  color: #5c9210;
+}
+
+.signin{
+  color: #944317;
+}

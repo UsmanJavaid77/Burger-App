@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cf8f2e;
+  color: black;
+  text-align: center;
+}
+
+.item-name-div{
+  text-align: left;
+}
+
+.add-Btn{
+  background-color: #99703f;
+  border: none;
+  border: 1px solid #aa6817;
+}
+
+.remove-btn-initial{
+  background-color: #ac9980;
+  color: #ccc;
+  border: 1px solid #7e7365;
+  cursor:not-allowed;
+}
+
+.remove-Btn{
+  background-color: #daa972;
+  border: none;
+  border: 1px solid #aa6817;
+}
+
+.sign-up-btn{
+  background-color: #dad735;
+  color: #966909;
+  border: 1px solid #966909;
+  box-shadow: 2px 2px 2px #966909;
+  font-size: 1.2em;
+  padding: 15px 30px;
+}

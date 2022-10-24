@@ -1,0 +1,30 @@
+.Lectuce{
+  background: linear-gradient(#228c1d,#91ce50);
+  border-radius: 20px;
+  height: 30px;
+}
+
+.Bacon{
+  background: linear-gradient(#bf3813,#c45e38);
+  height: 10px;
+  margin: auto;
+  width: 97%;
+}
+
+.Cheese{
+  background: linear-gradient(#f4d004,#d6bb22);
+  border-radius: 20px;
+  height: 20px;
+  margin-left: -30px;
+  width: 115%;
+}
+
+
+.Meat{
+  background: linear-gradient(#7f3608,#702e05);
+  /* margin: 2% auto; */
+  border-radius: 15px;
+  height: 35px;
+  margin: auto;
+  width: 97%;
+}
