@@ -3,7 +3,6 @@ import '../assets/styling/Login.css'
 const Login = () => {
   return (
     <>
-      {/* <h1>{state}</h1> */}
       <div className='row mt-5'>
         <div className='col' />
 
@@ -16,10 +15,14 @@ const Login = () => {
           </div>
 
           <div className='d-flex pt-4 justify-content-center'>
-            <button type='submit' className='login-btn submit'>SUBMIT</button>
+            <button type='submit' className='login-btn submit'>
+              SUBMIT
+            </button>
           </div>
           <div className='d-flex pt-4 justify-content-center'>
-            <button type='submit' className='login-btn signin'>SIGNIN</button>
+            <button type='submit' className='login-btn signin'>
+              SIGNIN
+            </button>
           </div>
         </div>
 

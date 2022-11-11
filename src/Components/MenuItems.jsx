@@ -1,16 +1,26 @@
-import Item from './Item'
-import '../assets/styling/Items.css'
-import '../assets/styling/Header.css'
+import React from 'react'
 import { v1 } from 'uuid'
-const Lectuce = <div className='Lectuce row' />
-const Bacon = <div className='Bacon row' />
-const Cheese = <div className='Cheese row' />
-const Meat = <div className='Meat row' />
+import MenuItem from './SubComponents/MenuItem'
 
-const MenuItems = [new Item(v1(), 'Lectuce', 0.5, Lectuce),
-  new Item(v1(), 'Bacon', 0.7, Bacon),
-  new Item(v1(), 'Cheese', 0.4, Cheese),
-  new Item(v1(), 'Meat', 1.3, Meat)
-]
+function Billing(props) {
+  const { MenuItems } = props
+  return (
+    <>
+      <div className='d-flex justify-content-center'>
+        <table className='table-borderless'>
+          <tbody>
+            {MenuItems.map(item => {
+              return (
+                <tr key={v1()}>
+                  <MenuItem Item={item} />
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )
+}
 
-export default MenuItems
+export default Billing

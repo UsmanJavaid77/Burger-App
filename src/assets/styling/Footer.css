@@ -8,30 +8,30 @@
   text-align: center;
 }
 
-.item-name-div{
+.item-name-div {
   text-align: left;
 }
 
-.add-Btn{
+.add-Btn {
   background-color: #99703f;
   border: none;
   border: 1px solid #aa6817;
 }
 
-.remove-btn-initial{
+.inactive-remove-btn {
   background-color: #ac9980;
   color: #ccc;
   border: 1px solid #7e7365;
-  cursor:not-allowed;
+  cursor: not-allowed;
 }
 
-.remove-Btn{
+.active-remove-Btn {
   background-color: #daa972;
   border: none;
   border: 1px solid #aa6817;
 }
 
-.sign-up-btn{
+.sign-up-btn {
   background-color: #dad735;
   color: #966909;
   border: 1px solid #966909;
