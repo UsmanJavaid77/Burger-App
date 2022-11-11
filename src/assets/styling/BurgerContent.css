@@ -1,8 +1,8 @@
-.burger-image{
+.burger-image {
   width: 100%;
   height: 100%;
 }
 .burger-div {
-  height:450px;
+  height: 450px;
   overflow-y: scroll;
 }

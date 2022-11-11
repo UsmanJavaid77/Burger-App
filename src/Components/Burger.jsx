@@ -1,14 +1,16 @@
-import BurgerContent from './BurgerContent'
+import BurgerContent from './SubComponents/BurgerContent'
 import Footer from './Footer'
-import { useState } from 'react'
-import MenuItems from './MenuItems'
+import { useSelector } from 'react-redux'
 
 const Burger = () => {
-  const [Bill, setBill] = useState(3)
+  const MenuItems = useSelector(store => {
+    return store.MenuItems
+  })
+
   return (
     <>
       <BurgerContent MenuItems={MenuItems} />
-      <Footer Bill={Bill} setBill={setBill} MenuItems={MenuItems} />
+      <Footer MenuItems={MenuItems} />
     </>
   )
 }

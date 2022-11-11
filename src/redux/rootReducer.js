@@ -1,11 +1,7 @@
-import constituencyListReducer from './features/constituencySlice'
-import userListReducer from './features/userSlice'
-import partyListReducer from './features/partySlice'
+import menuItemsReducer from './features/MenuItems.feature'
 
 const rootReducer = {
-  bill: userListReducer,
-  constituencies: constituencyListReducer,
-  parties: partyListReducer
+  MenuItems: menuItemsReducer
 }
 
 export default rootReducer

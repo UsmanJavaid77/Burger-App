@@ -1,24 +1,24 @@
-.header{
+.header {
   background-color: #703b09;
 }
 
-.burger-icon{
+.burger-icon {
   width: 45px;
   height: 30px;
 }
 
-.active{
+.active {
   background: #8f5c2c;
   border-bottom: 4px solid #40a4c8;
 }
 
-.menu-button:hover{
+.menu-button:hover {
   background: #8f5c2c;
   border-bottom: 4px solid #40a4c8;
   color: white;
 }
 
-.menu-button{
+.menu-button {
   color: white;
   text-decoration-line: none;
 }
