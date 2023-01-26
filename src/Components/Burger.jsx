@@ -3,9 +3,7 @@ import Footer from './Footer'
 import { useSelector } from 'react-redux'
 
 const Burger = () => {
-  const MenuItems = useSelector(store => {
-    return store.MenuItems
-  })
+  const MenuItems = useSelector(store => store.MenuItems)
 
   return (
     <>
